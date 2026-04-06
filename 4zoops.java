@@ -82,34 +82,34 @@
 
 //-----------------------------------------Constructors--------------------------------------
 
-public class zoops {
+// public class 4zoops {
 
-     public static void main(String[] args) {
-        Complex num1 = new Complex();
-        Complex num2=new Complex(3,5);
-        num1.print();
-        num2.print();
+//      public static void main(String[] args) {
+//         Complex num1 = new Complex();
+//         Complex num2=new Complex(3,5);
+//         num1.print();
+//         num2.print();
         
-     }
-}
-class Complex{
-    int a ,b ;
+//      }
+// }
+// class Complex{
+//     int a ,b ;
 
 
-    public Complex(){
-        a=9;
-        b=6;
-        System.out.println("Creating a new Object");
-    }
-    public Complex(int real, int imagenary){
-        a=real;
-        b=imagenary;
-    }
+//     public Complex(){
+//         a=9;
+//         b=6;
+//         System.out.println("Creating a new Object");
+//     }
+//     public Complex(int real, int imagenary){
+//         a=real;
+//         b=imagenary;
+//     }
 
-    void print(){
-        System.out.println(a+ " + "+b+"i");
-    }
-}
+//     void print(){
+//         System.out.println(a+ " + "+b+"i");
+//     }
+// }
 
 
 
